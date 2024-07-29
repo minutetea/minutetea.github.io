@@ -1,0 +1,51 @@
+# Dart and Flutter related files
+.dart_tool/
+.pub/
+build/
+pubspec.lock
+*.dart.js
+*.dart.js.map
+*.css
+*.html
+
+# Flutter-specific files
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependencies.xml
+.flutter-plugins.xml
+flutter_*.png
+
+# IDE and Editor-specific files
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Log files
+*.log
+
+# Build output
+*.apk
+*.aab
+*.app
+*.ipa
+*.dmg
+
+# Cache files
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage directory used by tools like LCOV
+coverage/
+
+# Flutter generated files
+flutter_*.png
