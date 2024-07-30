@@ -8516,32 +8516,29 @@ return A.awb(A.k(r.firebase_firestore,"getFirestore",[a.a,s]))},
 awb(a){var s,r=$.arG()
 A.ii(a)
 s=r.a.get(a)
-if(s==null){s=new A.YC(A.B(t.N,t.S),a)
+if(s==null){s=new A.YC(a)
 r.n(0,a,s)
 r=s}else r=s
 return r},
 alg(a){var s,r=$.arC()
 A.ii(a)
 s=r.a.get(a)
-if(s==null){s=new A.Fr(A.B(t.N,t.S),a)
+if(s==null){s=new A.Fr(a)
 r.n(0,a,s)
 r=s}else r=s
 return r},
 auK(a){var s,r=$.arw()
 A.ii(a)
 s=r.a.get(a)
-if(s==null){s=new A.EC(A.B(t.N,t.S),a,t.c0)
+if(s==null){s=new A.EC(a,t.c0)
 r.n(0,a,s)
 r=s}else r=s
 return r},
-YC:function YC(a,b){this.b=a
-this.a=b},
-Fr:function Fr(a,b){this.b=a
-this.a=b},
+YC:function YC(a){this.a=a},
+Fr:function Fr(a){this.a=a},
 Iu:function Iu(){},
-EC:function EC(a,b,c){this.b=a
-this.a=b
-this.$ti=c},
+EC:function EC(a,b){this.a=a
+this.$ti=b},
 ag8(a){var s,r="fromMillis"
 if(a==null)return null
 if(t.j.b(a)){s=J.m6(a,A.aEL(),t.X)
@@ -42340,7 +42337,7 @@ if(p<q){k=j.ud(p)
 if(s.$2(a,k)>0){j.b[b]=k
 b=p}}j.b[b]=a}}
 A.Hg.prototype={
-L(a){return new A.wb(new A.wr(null),"Flutter Demo",A.yX(null,A.auL(B.ae,B.dM),!0),null)}}
+L(a){return new A.wb(new A.wr(null),"The Cool AppSmiths",A.yX(null,A.auL(B.ae,B.dM),!0),null)}}
 A.wr.prototype={
 ag(){return new A.Om(new A.HE(null,null,A.b([],t.ZP),$.al()),B.k)}}
 A.Om.prototype={
